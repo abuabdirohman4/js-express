@@ -1,0 +1,22 @@
+{
+  "name": "express-basic",
+  "version": "1.0.0",
+  "description": "Reference from [Node JavaScript Dasar](https://www.buildwithangga.com/kelas/node-javascript-dasar?thumbnail=wATNuz4FZX.36&main_leads=searchresult)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuabdirohman4/fnd-30-express-js.git"
+  },
+  "author": "Abu Abdirohman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuabdirohman4/fnd-30-express-js/issues"
+  },
+  "homepage": "https://github.com/abuabdirohman4/fnd-30-express-js#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
