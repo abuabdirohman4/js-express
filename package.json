@@ -4,7 +4,8 @@
   "description": "Reference from [Node JavaScript Dasar](https://www.buildwithangga.com/kelas/node-javascript-dasar?thumbnail=wATNuz4FZX.36&main_leads=searchresult)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "./node_modules/nodemon/bin/nodemon.js app"
   },
   "repository": {
     "type": "git",
