@@ -6,7 +6,18 @@ app.set('views', './views') // Specify the views directory
 app.set('view engine', 'ejs') // Register the template engine
 
 app.get('/', (req, res) => {
-    res.render('index')
+    const buah = [
+        {name : 'apel'},
+        {name : 'melon'},
+        {name : 'mangga'},
+    ]
+
+    res.render('index', {
+        name: 'Abu Abdirohman Rosikhun',
+        umur: 24,
+        buah: buah,
+        // buah
+    })
 })
 
 // app.get('/', (req, res) => res.send("Welcome to Nodemon"))
